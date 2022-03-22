@@ -1,0 +1,222 @@
+/* Container Principal */
+body {
+  background-image: url(.//images/Meat-potatoes-sauce-knife-beer-food_1600x900.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: brightness(30%);
+  margin: 0;
+  height: 49.3rem;
+
+}
+
+#image{
+  display:inline;
+  padding: 10rem;
+}
+
+#container {
+
+  background-color: rgb(195, 217, 236);
+  padding: 20px;
+  margin: auto;
+  max-width: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background: rgba(255, 255, 255, 0.678);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.4px);
+-webkit-backdrop-filter: blur(10.4px);
+
+
+}
+/* Input*/
+input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#H1principal {
+  margin-top: 0;
+  align-items: center;
+  position: relative;
+  left: 4.4rem;
+  
+}
+
+/* Button*/
+
+button {
+  background-color: rgb(175, 57, 82);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+  border-color: rgb(175, 57, 82);
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rgb(143, 22, 48);
+  border-color: rgb(143, 22, 48);
+  transition: 0.3s;
+}
+
+#tituloC {
+  margin: 0;
+  left: 44%;
+  display: none;
+  position: relative;
+  align-items: center;
+  font-size: 10px;
+  background-color: bisque;
+  margin-top: 2.5rem;
+  border-radius: 0.2rem;
+
+}
+
+#resultado {
+
+  display: none;
+  background-color: rgb(219, 188, 183);
+  padding: 0px;
+  border-radius: 0.2rem;
+  margin-top: 0.625rem;
+  font-weight: 600;
+
+  background: rgba(255, 255, 255, 0.678);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.4px);
+  -webkit-backdrop-filter: blur(10.4px);
+
+
+
+}
+
+
+
+/* Footer */
+
+#fott {
+
+  display: none;
+  padding: 20px;
+  margin: auto;
+  max-width: 400px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.678) , rgb(255, 255, 255));
+
+/*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);*/
+backdrop-filter: blur(10.4px);
+-webkit-backdrop-filter: blur(10.4px);
+
+
+}
+
+
+#h1Footer {
+  margin-top: 0;
+  align-items: center;
+  font-size: 20px;
+  position: relative;
+  left: 18%;
+
+
+}
+
+.icons {
+
+  width: 2.0rem;
+  bottom: 0px;
+  transition: 0.3s;
+  position: relative;
+  left: 32%;
+}
+p {
+  font-size: 0.8rem;
+  position: relative;
+  left: 19%;
+}
+
+.icons:hover {
+  position: relative;
+  bottom: 5px;
+  transition: 0.3s;
+}
+#augusto {
+  position: relative;
+  left: 24%;
+
+}
+
+span {
+  font-weight: 600;
+  color:darkred
+}
+
+/*Esmaecer*/
+
+#resultado {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#tituloC {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#fott {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
